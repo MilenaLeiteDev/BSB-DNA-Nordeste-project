@@ -1,0 +1,3 @@
+https://www.myfonts.com/fonts/urw/synchro/d/
+font-family: 'Maple Regular', sans-serif;
+font-family: 'OCR A Std Regular', sans-serif;

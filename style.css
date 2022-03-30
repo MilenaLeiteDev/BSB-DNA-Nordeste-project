@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'DNA';
+    src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/SynchroPlain.otf) format('opentype');
+    font-weight:lighter;
+}
+
+@font-face {
+    font-family:'itens' ;
+    src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/Orbitron-VariableFont_wght.ttf);
+}
+
+
+:root{
+    --cor1:black;
+    --cor2:white;
+    --cor3:red;
+    --cor4:rgb(167, 164, 164);
+
+    --fonte-padrao: verdana;
+    --fonte-dna:'DNA';
+    --fonte-itens:'itens';
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/* body{
+    background-color: var(--cor4);
+    font-family: var(--fonte-padrao); */
+}
+
+nav{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding:  20px 200px;
+    margin: auto;
+    
+}
+
+.background-color-nav{
+    background-color: var(--cor1);
+    text-align: center; 
+    border-bottom: 1px solid var(--cor3);
+
+}
+
+a{
+    padding: 20px 40px; 
+    margin: 20px 0px;
+    color:var(--cor2);
+    border-radius:5px;
+    text-decoration: none;
+    font-weight: lighter ;
+    transition-duration: 0.6s;
+    font-size: 1.2em;
+    font-family: 'itens';
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+a:hover{
+    color:var(--cor3);
+
+}
+
+#bsbdnanordeste-fonte{
+    margin: 20px 100px 20px 50px; 
+    color:var(--cor2);
+    border-radius:5px;
+    text-decoration: none;
+    font-weight: lighter ;
+    transition-duration: 0.6s;
+    font-size: 3em;
+    font-family:'DNA';
+    text-align: center;
+}
+
+#bsbdnanordeste-fonte > a:hover{
+    color:var(--cor3);
+
+}
+
+header{
+    /* min-height: 150px; */
+    width: 100vw;
+    background-color: black; 
+    margin: auto; 
+    align-items: center;
+    font-family: 'DNA';
+    height: 90vh;
+    display: flex;
+    /* text-align: right; */
+    color:var(--cor2);
+    
+}
+ 
+
+.pic-head-index{
+    /* height: 872px; */
+     max-width: 70vw; 
+    height:90vh;
+    /* border: 1px solid var(--cor3); */
+    /* border-radius: 0px 40px 40px 0px; */
+    /* box-shadow: 1px 1px 2px --cor2; */
+    
+
+}
+
+.petition{
+    text-align: center;
+    justify-content: center;
+    margin:100px 50px 0px 50px;
+    font-family:var(--fonte-padrao);
+    font-size: 1.5em;
+    color: var(--cor4);
+    display: flexbox;
+}
+
+.p-header{
+     margin: 10px;
+}
+
+.h1-header{
+    margin-bottom:10px;  
+}
+
+.header-a{
+    background-color: var(--cor1);
+    border:2px solid var(--cor2);
+    border-radius: 1px;
+}
+
+main{
+    min-width: 300px;
+    width: 1500px;
+    margin: auto;
+    color: var(--cor4);
+    background-color: var(--cor1);
+    margin-bottom: 30px;
+    padding: 0px 0px 20px 0px;
+    border-radius: 5px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    /* box-shadow: 0px 0px 10px var(--cor4); */
+}
+
+main h1{
+    text-align: center;
+    color: var(--cor2);
+    font-family: var(--fonte-dna);
+    font-weight: lighter;
+    font-size: 4em;
+    padding-bottom: 20px;
+    border-top:1px solid var(--cor3);
+    border-bottom:1px solid var(--cor3);
+}
+
+main p{
+    max-width: 1000;
+    color:var(--cor4);
+    font-family: var(--fonte-padrao);
+    /* padding-bottom: 50px; */
+    margin: 15px 15px;
+    text-align: justify; 
+    text-indent: 30px;
+    font-size: 1.2em;
+    line-height: 2em; 
+}
+
+
+main > a{ 
+    color:var(--cor1);
+    border-radius:5px;
+    text-decoration: none;
+    font-weight: lighter ;
+    transition-duration: 0.6s;
+    font-size: 1.2em;
+    font-family: 'itens';
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+main > article > a:hover{
+    color:red;
+    align-items: center;
+}
+
+
+table{
+    width:500px;
+   border-collapse: collapse;
+   margin: auto;
+   border: 1px solid black;
+   columns:2;
+}
+
+.tr-emphasis-Brazil{
+    background-color:rgb(166, 255, 0);
+    color: var(--cor1);
+    border-radius: 5px;
+
+}
+
+th{
+    font-size: 3em;
+}
+
+td, th{
+    padding: 10px;
+    border: 1px solid black; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+li{
+    list-style-position: inside;
+    max-width: 1000;
+    color:var(--cor4);
+    font-family: var(--fonte-padrao);
+    margin: 15px 15px;
+    text-align: justify; 
+    text-indent: 30px;
+    font-size: 1.2em;
+    line-height: 2em; 
+}
+
+
+
+.image-aboutus{
+    border-radius: 40px solid var(--cor3);
+    margin-top: 40px;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.setlist{
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+
+
+footer{
+    background-color: var(--cor1);
+    color:var(--cor4);
+    text-align: center;
+    border-top: 2px solid var(--cor3);
+    
+}
+
