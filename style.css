@@ -28,10 +28,7 @@
     padding: 0px;
 }
 
-/* body{
-    background-color: var(--cor4);
-    font-family: var(--fonte-padrao); */
-}
+                        /* NAV */
 
 nav{
     text-align: center;
@@ -46,13 +43,17 @@ nav{
 .background-color-nav{
     background-color: var(--cor1);
     text-align: center; 
-    border-bottom: 1px solid var(--cor3);
+    border-bottom: 2px solid var(--cor3);
 
 }
 
-a{
-    padding: 20px 40px; 
-    margin: 20px 0px;
+a{ 
+    text-decoration: none;
+    font-family: 'itens';
+    transition-duration: 0.6s;
+    font-weight: lighter ;
+    
+    /* margin: 20px 30px;
     color:var(--cor2);
     border-radius:5px;
     text-decoration: none;
@@ -61,8 +62,8 @@ a{
     font-size: 1.2em;
     font-family: 'itens';
     align-items: center;
-    display: inline-flex;
-    justify-content: center;
+    display: inline-flex; 
+    justify-content: center; */
 }
 
 a:hover{
@@ -70,72 +71,100 @@ a:hover{
 
 }
 
-#bsbdnanordeste-fonte{
-    margin: 20px 100px 20px 50px; 
+.nav-links{
+    margin: 20px 30px;
     color:var(--cor2);
     border-radius:5px;
-    text-decoration: none;
     font-weight: lighter ;
-    transition-duration: 0.6s;
-    font-size: 3em;
-    font-family:'DNA';
-    text-align: center;
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
 }
 
-#bsbdnanordeste-fonte > a:hover{
-    color:var(--cor3);
+#nav-links-BSB{
+    font-family: var(--fonte-dna);
+    margin: 20px 30px;
+    color:var(--cor2);
+    border-radius:5px;
+    font-weight: lighter ;
+    font-size: 2.5em;
+    align-items: center;
+    justify-content: center;
+}
 
+.setlist-links{
+
+}
+
+
+                        /* HEADER */
+.div-header-image{
+
+
+}
+
+.div-header-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte-padrao);
+    font-size: 1.5em;
+    color: var(--cor4);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
-    /* min-height: 150px; */
-    width: 100vw;
     background-color: black; 
     margin: auto; 
     align-items: center;
     font-family: 'DNA';
-    height: 90vh;
+    height: 80vh;
     display: flex;
-    /* text-align: right; */
     color:var(--cor2);
     
 }
  
 
 .pic-head-index{
-    /* height: 872px; */
      max-width: 70vw; 
-    height:90vh;
-    /* border: 1px solid var(--cor3); */
-    /* border-radius: 0px 40px 40px 0px; */
-    /* box-shadow: 1px 1px 2px --cor2; */
-    
-
+    height:80vh;
+    border-bottom: 2px solid var(--cor3);
+    border-right:2px solid var(--cor3) ;
 }
 
-.petition{
+.div-header-content{
     text-align: center;
+    align-items: center;
     justify-content: center;
-    margin:100px 50px 0px 50px;
+    /* margin:100px 50px 0px 50px; */
     font-family:var(--fonte-padrao);
     font-size: 1.5em;
     color: var(--cor4);
     display: flexbox;
+    height:80vh;
 }
 
 .p-header{
-     margin: 10px;
+     margin: 40px;
 }
 
 .h1-header{
-    margin-bottom:10px;  
+    /* margin-bottom:20px;   */
 }
 
 .header-a{
     background-color: var(--cor1);
     border:2px solid var(--cor2);
     border-radius: 1px;
+    text-decoration: none;
+    color: var(--cor2);
+    padding: 20px;
+    margin-top: 20px;
+
 }
+
+                    /* MAIN */
 
 main{
     min-width: 300px;
@@ -192,7 +221,7 @@ main > article > a:hover{
     align-items: center;
 }
 
-
+                /* MAIN-TOUR DATES */
 table{
     width:500px;
    border-collapse: collapse;
@@ -232,6 +261,7 @@ li{
 }
 
 
+                /* ABOUT US */
 
 .image-aboutus{
     border-radius: 40px solid var(--cor3);
@@ -242,12 +272,15 @@ li{
 
 }
 
+                /* SETLIST */
+
 .setlist{
     background-color: var(--cor1);
     color: var(--cor2);
 }
 
 
+                /* FOOTER */
 
 footer{
     background-color: var(--cor1);
@@ -255,5 +288,33 @@ footer{
     text-align: center;
     border-top: 2px solid var(--cor3);
     
+
+}
+i{
+    font-family: var(--fonte-itens);
+    margin-right: 10px;
+    font-size: 30px;
 }
 
+.footer-hr{
+    width: 20%;
+    text-align: center;
+    margin: auto;
+    color: var(--cor4);
+}
+#a-footer{
+    padding: 0px;
+    margin:10px;
+    color:var(--cor2);
+    text-decoration: none;
+    font-weight: lighter ;
+    transition-duration: 0.6s;
+    font-size: 1em;
+    font-family: 'itens';
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+#a-footer:hover{
+    color:var(--cor3);
+}
