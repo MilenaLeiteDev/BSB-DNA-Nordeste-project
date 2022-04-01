@@ -11,14 +11,15 @@
     src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/Orbitron-VariableFont_wght.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 :root{
     --cor1:black;
     --cor2:white;
-    --cor3:red;
+    --cor3:rgb(253, 0, 2);
     --cor4:rgb(167, 164, 164);
 
-    --fonte-padrao: verdana;
+    --fonte-padrao:'PT Mono', monospace;
     --fonte-dna:'DNA';
     --fonte-itens:'itens';
 }
@@ -92,9 +93,7 @@ a:hover{
     justify-content: center;
 }
 
-.setlist-links{
 
-}
 
 
                         /* HEADER */
@@ -134,23 +133,38 @@ header{
 }
 
 .div-header-content{
-    text-align: center;
-    align-items: center;
+    text-align: center; 
+    align-items: center; 
     justify-content: center;
-    /* margin:100px 50px 0px 50px; */
     font-family:var(--fonte-padrao);
     font-size: 1.5em;
     color: var(--cor4);
-    display: flexbox;
+    display: flex;
     height:80vh;
+    background-image: url('imagens/fans-bsb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    
 }
 
-.p-header{
-     margin: 40px;
+.logo-BSB-DNA-Nordeste{
+    margin: 40px;
+       
 }
 
 .h1-header{
-    /* margin-bottom:20px;   */
+    color: var(--cor2);
+    font-size: 70px;
+    text-shadow: 1px 1px 10px var(--3);
+
+    
+}
+
+.p-header{
+    margin: 20px;
+    max-width: 760px;
 }
 
 .header-a{
@@ -174,7 +188,7 @@ main{
     background-color: var(--cor1);
     margin-bottom: 30px;
     padding: 0px 0px 20px 0px;
-    border-radius: 5px;
+    border-radius: 0px 0px 10px 10px;
     /* border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; */
     /* box-shadow: 0px 0px 10px var(--cor4); */
@@ -187,8 +201,8 @@ main h1{
     font-weight: lighter;
     font-size: 4em;
     padding-bottom: 20px;
-    border-top:1px solid var(--cor3);
-    border-bottom:1px solid var(--cor3);
+    /* border-top:1px solid var(--cor3); */
+    border-bottom:2px solid var(--cor3);
 }
 
 main p{
@@ -248,17 +262,7 @@ td, th{
     font-size: 1.5em;
 }
 
-li{
-    list-style-position: inside;
-    max-width: 1000;
-    color:var(--cor4);
-    font-family: var(--fonte-padrao);
-    margin: 15px 15px;
-    text-align: justify; 
-    text-indent: 30px;
-    font-size: 1.2em;
-    line-height: 2em; 
-}
+
 
 
                 /* ABOUT US */
@@ -268,16 +272,48 @@ li{
     margin-top: 40px;
     align-items: center;
     display: flex;
-    
+}
+
+.p-aboutus{
+    max-width: 760px;
+    margin: auto;
+}
+
+.div-ol{
+    border: 1px solid var(--cor3);
+    border-radius: 20px;
+    max-width: 770px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px var(--cor2);
 
 }
+
+li{
+    list-style-position: inside;
+    max-width: 760px;
+    color:var(--cor4);
+    font-family: var(--fonte-padrao);
+    /* margin: 15px 15px; */
+    text-align: justify; 
+    text-indent: 30px;
+    font-size: 1.2em;
+    line-height: 2em; 
+    margin:  10px auto;
+}
+
 
                 /* SETLIST */
 
-.setlist{
-    background-color: var(--cor1);
-    color: var(--cor2);
-}
+ .setlist{
+     background-color: var(--cor1);
+    color:var(--cor2);
+} 
+
+
+
+
+
 
 
                 /* FOOTER */
@@ -317,4 +353,7 @@ i{
 }
 #a-footer:hover{
     color:var(--cor3);
+}
+.p-footer{
+    font-family: var(--fonte-padrao);
 }
