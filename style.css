@@ -628,12 +628,12 @@ i{
 
 
 @media screen and (max-width: 870px) {
-            /* NAV*/
+                        /* NAV*/
     .background-color-{
         display: none;
     }
 
-    /* HEADER */
+                        /* HEADER */
     header {
         flex-direction: column-reverse;
         height: auto;
@@ -661,7 +661,7 @@ i{
         margin-bottom: 50px;
     }
 
-        /* SECTION-1 */
+                        /* SECTION-1 */
 
     .section-1 {
         flex-direction: column-reverse;
@@ -675,7 +675,7 @@ i{
         width: 100%;
         padding: 50px 0px;
     }
-                /* SECTION 2 */
+                        /* SECTION 2 */
 
     .section-2 {
         flex-direction: column;
