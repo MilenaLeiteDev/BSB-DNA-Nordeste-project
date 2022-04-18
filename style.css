@@ -42,6 +42,14 @@ nav{
     
 }
 
+#nav-desktop {
+    display: block;
+}
+
+#nav-mobile {
+    display: none;
+}
+
 .background-color-nav{
     background-color: var(--cor1);
     text-align: center; 
@@ -514,65 +522,7 @@ td{
 
 
 
-                /* ABOUT US */
-
-/* .image-aboutus{
-    border-radius: 40px solid var(--cor3);
-    margin-top:  40px auto;
-    align-items: center;
-    display: flex;
-}
-.div-geral{
-    display: flex;
-    flex: wrap;
-}
-
-.div-p-1{
-    max-width: 760px;
-    min-width: 700px;
-    align-items: right ;
-    margin: 20px;
-}
-
-.aj-face{
-    max-width: 760px;
-    min-width: 600px;
-    align-items: left ;
-    margin: 20px;
-
-
-
-}
-
-.p-aboutus{
-    max-width: 760px;
-    margin:  20px auto;
-}
-
-.div-ol{
-    border: 1px solid var(--cor3);
-    border-radius: 20px;
-    max-width: 770px;
-    margin: auto;
-    padding: 20px;
-    box-shadow: 0px 0px 5px var(--cor2);
-
-}
-
-li{
-    list-style-position: inside;
-    max-width: 760px;
-    color:var(--cor4);
-    font-family: var(--fonte-padrao);
-     margin: 15px 15px; 
-    text-align: justify; 
-    text-indent: 30px;
-    font-size: 1.2em;
-    line-height: 2em; 
-    margin:  10px auto;
-} */
-
-
+  
                 /* SETLIST */
  
  .setlist{
@@ -624,13 +574,46 @@ i{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* __________________________Media Query_______________________________ */
 
 
 @media screen and (max-width: 870px) {
                         /* NAV*/
-    .background-color-{
+    #nav-desktop {
         display: none;
+    }
+    #nav-mobile {
+        display: block;
+    }
+    nav {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0px; 
+        margin: auto;
+    }
+
+    .nav-links {
+        margin: 10px 5px;
+        font-size: 1em;
+       
     }
 
                         /* HEADER */
@@ -656,10 +639,23 @@ i{
         height: auto;
     }
 
+    .h1-header {
+       
+        font-size: 40px;
+        
+    }
     .header-a {
         font-size: 0.5em;
         margin-bottom: 50px;
     }
+
+                        /* About us */
+
+.aboutus-h1 {
+    
+    font-size: 35px; 
+   
+}
 
                         /* SECTION-1 */
 
@@ -715,5 +711,7 @@ i{
         flex-direction: column;
         align-items: center;
     }
+
+
 
   }
