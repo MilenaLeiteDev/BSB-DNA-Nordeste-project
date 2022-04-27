@@ -81,11 +81,39 @@ a{
     font-family: 'itens';
     transition-duration: 0.6s;
     font-weight: lighter ;
-    
 }
 
 a:hover{
     color:var(--cor3);
+}
+
+#homepage-texts-bg-red {
+    text-decoration: none;
+    font-family:var(--fonte-padrao);
+    transition-duration: 0.6s;
+    font-weight: bold;
+    color:var(--cor1);
+}
+
+#homepage-texts-bg-red:hover{
+    background-color:var(--cor1);
+    border-radius: 5px;
+    color:var(--cor2);
+
+}
+
+#homepage-texts-bg-white {
+    text-decoration: none;
+    font-family:var(--fonte-padrao);
+    transition-duration: 0.6s;
+    font-weight: bold;
+    color:var(--cor3);
+}
+
+#homepage-texts-bg-white:hover{
+    background-color:var(--cor3);
+    color:var(--cor2);
+    border-radius: 5px;
 
 }
 
