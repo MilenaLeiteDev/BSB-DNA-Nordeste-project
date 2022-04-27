@@ -2,13 +2,15 @@
 
 @font-face {
     font-family: 'DNA';
-    src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/SynchroPlain.otf) format('opentype');
+    /* src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/SynchroPlain.otf) format('opentype'); */
+    src: url(fontes/SynchroPlain.otf) format('opentype');
     font-weight:lighter;
 }
 
 @font-face {
     font-family:'itens' ;
-    src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/Orbitron-VariableFont_wght.ttf);
+    /* src: url(C:/Users/brad/OneDrive/Desktop/Milena/BSB-DNA-Nordeste-project/fontes/Orbitron-VariableFont_wght.ttf); */
+    src: url(fontes/Orbitron-VariableFont_wght.ttf);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
@@ -441,60 +443,6 @@ margin-bottom: 50px;
     width: 80%;
 }
 
-
-
-                    /* MAIN */
-
-/* main{
-    min-width: 300px;
-    width: 1500px;
-    margin: auto;
-    color: var(--cor4);
-    background-color: var(--cor1);
-    margin-bottom: 30px;
-    padding: 0px 0px 20px 0px;
-    border-radius: 0px 0px 10px 10px;
-   
-} */
-
-main h1{
-    text-align: center;
-    color: var(--cor2);
-    font-family: var(--fonte-dna);
-    font-weight: lighter;
-    font-size: 4em;
-    padding-bottom: 20px;
-    border-bottom:2px solid var(--cor3);
-}
-
-main p{
-    max-width: 1000;
-    color:var(--cor4);
-    font-family: var(--fonte-padrao);
-    margin: 15px 15px;
-    text-align: justify; 
-    text-indent: 30px;
-    font-size: 1.2em;
-    line-height: 2em; 
-}
-
-
-main > a{ 
-    color:var(--cor1);
-    border-radius:5px;
-    text-decoration: none;
-    font-weight: lighter ;
-    transition-duration: 0.6s;
-    font-size: 1.2em;
-    font-family: 'itens';
-    align-items: center;
-    padding-bottom: 50px;
-}
-
-main > article > a:hover{
-    color:red;
-    align-items: center;
-}
 
                 /* MAIN-TOUR DATES */
 .bsb-faces{
