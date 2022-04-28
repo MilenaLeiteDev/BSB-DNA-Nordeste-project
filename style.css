@@ -671,9 +671,25 @@ i{
         margin: auto;
     }
 
+    .logo-contain {
+        width: 360px;
+        padding: 13px 0px;
+        margin: 0px;
+    }
+
     .nav-links {
         margin: 10px 5px;
         font-size: 1em;
+    }
+
+    #nav-links-BSB {
+        font-family: var(--fonte-dna);
+        color: var(--cor2);
+        border-radius: 5px;
+        font-weight: lighter;
+        font-size: 1.5em;
+        align-items: center;
+        justify-content: center;
     }
 
     .navbar-links {
